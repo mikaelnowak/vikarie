@@ -1,0 +1,43 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    width: 300px;
+    background: #ccc;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 20px;
+    width: ;
+}
+label {
+    display: block;
+    margin-top: 20px;
+}
+input {
+    display: block;
+}
+button {
+    margin-top: 20px;
+}
+
+/* vikarie */
+
+.box1, .box2 {
+    background: #aaa;
+    font-size: 50px;
+    width: auto;
+    margin: 200px auto 0 auto;
+    padding: 100px;
+}
