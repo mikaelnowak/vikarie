@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    background: url(../bilder/rutnät.jpg);
+}
+.kontainer {
+    background: #ffffff;
+    width: 70%;
+    margin: 15% auto;
+    padding: 25px;
+    border-radius: 5px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #0D8AC2;
+}
+.kontainer h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    width: 81px;
+    align-items: center;
+}
+.kontainer label {
+    display: block;
+    font-size: 1.2em;
+}
+.kontainer input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #000;
+}
+button {
+    margin-top: 40px;
+}
+
+
+@media only screen and (min-width: 540px) {
+    .kontainer {
+        width: 380px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .kontainer {
+        width: 100%;
+    }
+}

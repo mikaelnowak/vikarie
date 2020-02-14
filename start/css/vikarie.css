@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+}
+.kontainer {
+    justify-content: center;
+    height: 70%;
+}
+h1 {
+    background: #888;
+    width: max-content;
+    padding: 40px 20%;
+    border-radius: 70px;
+    margin: 43% auto;
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    h1 {
+        margin: 37% auto;
+        font-size: 1.5em;
+        padding: 35px 15%;
+    }
+}

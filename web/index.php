@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>hej</p>
-  <p></p>
+
 </body>
 </html>
